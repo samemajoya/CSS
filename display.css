@@ -1,0 +1,27 @@
+.block{
+   display: block;
+   width: 200px;
+   height: 50px;
+   background-color: #007bff;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+.inline{
+    display: inline;
+    background-color: #ff6600;
+    color: white;
+    padding: 5px;
+}
+.inline-block{
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   background-color: #cc0000;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+.hidden{
+    display: none;
+}

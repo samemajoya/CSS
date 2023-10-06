@@ -1,0 +1,11 @@
+body, ol, li{
+    margin: 0;
+    padding: 0;
+}
+.counter{
+    counter-reset: item;
+}
+li ::before{
+    content: counter(item) " . ";
+    counter-increment: item;
+}

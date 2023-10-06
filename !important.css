@@ -1,0 +1,12 @@
+h1{
+    color: olivedrab !important;
+}
+#special-heading{
+    color: brown;
+}
+p{
+    color: blue !important;
+}
+p.important{
+    color: red;
+}
